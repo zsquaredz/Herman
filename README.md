@@ -19,7 +19,10 @@ The dataset is in `csv` format with `id`, `article`, `summary`, `label`, `label_
 - `label_binary`: the binary summary-level label `z` described in the paper Sec 3.1
 - `quantity_label`: the sequence of binary labels `M` described in the paper Sec 3.1
 
-You can download the dataset [here](link).
+You can download the dataset [here](https://drive.google.com/file/d/1N5271KSvY6U2vt-spipPhlvQDtFPUpdL/view?usp=sharing). Unzip the data using the following command:
+```
+tar xvzf herman_data.tar.gz 
+```
 
 ### How to run
 Use the following command to train the Herman system 
